@@ -11,3 +11,12 @@ pre {
 blockquote {
   margin-left: 0;
 }
+
+pre, blockquote {
+  border: 1px dotted black;
+  padding: 1rem;
+}
+
+blockquote h1 {
+  margin-top: 0;
+}
