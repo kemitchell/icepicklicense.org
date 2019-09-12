@@ -1,0 +1,13 @@
+#logo {
+  width: 10rem;
+}
+
+pre {
+  font-size: 80%;
+  overflow-x: hidden;
+  white-space: pre-wrap;
+}
+
+blockquote {
+  margin-left: 0;
+}
