@@ -1,6 +1,7 @@
 #!/bin/sh
+SITE=icepicklicense.org
 set -e
 rm -rf _site
 bundle install --quiet
 bundle exec jekyll build --quiet
-rsync -a --delete _site/ icepicklicense.org:/var/www/icepicklicense.org/
+rsync -a --delete _site/ "$SITE:/var/www/$SITE/"
