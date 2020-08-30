@@ -1,10 +1,10 @@
 {% include before.html %}
 <main>
-  <p>Jump To: <a href=#html>HTML</a>, <a href=#text>Plain Text</a></p>
+  <p>Jump To: <a href=#html>HTML</a>, <a href=#text>Markdown</a></p>
   <h2 id=html>HTML</h2>
   <blockquote>{{content | markdownify}}</blockquote>
 
-  <h2 id=text>Plain Text</h2>
+  <h2 id=text>Markdown</h2>
   <pre>{{ content }}</pre>
 </main>
 {% include after.html %}
