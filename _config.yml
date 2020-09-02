@@ -15,3 +15,5 @@ defaults:
 collections:
   versions:
     output: true
+  projects:
+    output: true
