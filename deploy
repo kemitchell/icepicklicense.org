@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 SITE=icepicklicense.org
-exec rsync -a --delete $(git ls-files) "$SITE:/var/www/$SITE/"
+exec rsync -a --delete --exclude .git ./ "$SITE:/var/www/$SITE/"
