@@ -1,2 +1,5 @@
 #!/bin/sh
+set -e
 git ls-files | grep ".html$" | xargs tidy -modify -indent --indent-spaces 2 -quiet --tidy-mark no --wrap 0
+feed=feed.xml
+xmllint --format "$feed" | sponge "$feed"

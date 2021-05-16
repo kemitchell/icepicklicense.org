@@ -1,1 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://icepicklicense.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://icepicklicense.org/" rel="alternate" type="text/html" /><updated>2021-05-15T19:37:31-07:00</updated><id>https://icepicklicense.org/feed.xml</id><title type="html">Icepick</title><subtitle>a weapon of mass user protection</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
+  <link href="https://icepicklicense.org/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://icepicklicense.org/" rel="alternate" type="text/html"/>
+  <updated>2021-05-15T19:37:31-07:00</updated>
+  <id>https://icepicklicense.org/feed.xml</id>
+  <title type="html">Icepick</title>
+  <subtitle>a weapon of mass user protection</subtitle>
+</feed>
