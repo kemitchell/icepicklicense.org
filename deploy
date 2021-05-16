@@ -1,7 +1,4 @@
 #!/bin/sh
-SITE=icepicklicense.org
 set -e
-rm -rf _site
-bundle install --quiet
-bundle exec jekyll build --quiet
-rsync -a --delete _site/ "$SITE:/var/www/$SITE/"
+SITE=icepicklicense.org
+exec rsync -a --delete $(git ls-files) "$SITE:/var/www/$SITE/"
